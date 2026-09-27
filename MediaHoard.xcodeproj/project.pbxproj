@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E9761370FF93BFD29B62F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 054FE850C5707D8C9950B6CC /* Assets.xcassets */; };
+		167D0E4A5552470701E64C6B /* MediaMuxer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524BC7F2D7BD3ECB3F5DF610 /* MediaMuxer.swift */; };
+		2E464DFFD3FEA88BC263BD48 /* MediaSourceResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB389D327791CDDA73F8D8 /* MediaSourceResolver.swift */; };
+		31E746D00E36507BFCB3425E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C7881FF2730D06AEB34FBD /* ContentView.swift */; };
+		3396594BA91D039CA3B0CD89 /* MediaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C67810797BDFD84583BD11 /* MediaModels.swift */; };
+		50A8C30585E8DC375973138A /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43937A62D626809608EF8888 /* DownloadManager.swift */; };
+		53D1B8FAB07540B0F58E2EE7 /* FileShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB50AB93AEF702214FE1106 /* FileShareSheet.swift */; };
+		68A50F0A4F1AE355D29FD18C /* MediaSizeResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF6D7096FBEEFA2F84F35B1 /* MediaSizeResolver.swift */; };
+		74A44BE9B19D4A1C60D774DD /* MediaHoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B8908D9DA93F69F9BEC976 /* MediaHoardApp.swift */; };
+		F3A095412FD66CF6908EB45F /* YouTubeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 02D0E12321803854A08E969D /* YouTubeKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00C67810797BDFD84583BD11 /* MediaModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaModels.swift; sourceTree = "<group>"; };
+		054FE850C5707D8C9950B6CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FBB389D327791CDDA73F8D8 /* MediaSourceResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaSourceResolver.swift; sourceTree = "<group>"; };
+		43937A62D626809608EF8888 /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		524BC7F2D7BD3ECB3F5DF610 /* MediaMuxer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaMuxer.swift; sourceTree = "<group>"; };
+		7CB50AB93AEF702214FE1106 /* FileShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileShareSheet.swift; sourceTree = "<group>"; };
+		8151C750B510CAE5195B8A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9C3D49E08989CD80670286E7 /* MediaHoard.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MediaHoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B8908D9DA93F69F9BEC976 /* MediaHoardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaHoardApp.swift; sourceTree = "<group>"; };
+		CFF6D7096FBEEFA2F84F35B1 /* MediaSizeResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaSizeResolver.swift; sourceTree = "<group>"; };
+		F9C7881FF2730D06AEB34FBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B873D73DC2FA3BF102DB4783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A095412FD66CF6908EB45F /* YouTubeKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		022A6C1BD21D0FE90DEDD63F = {
+			isa = PBXGroup;
+			children = (
+				74E939619F0323F1C3574716 /* MediaHoard */,
+				0A6745205080FC5302E912A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A6745205080FC5302E912A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C3D49E08989CD80670286E7 /* MediaHoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74E939619F0323F1C3574716 /* MediaHoard */ = {
+			isa = PBXGroup;
+			children = (
+				054FE850C5707D8C9950B6CC /* Assets.xcassets */,
+				F9C7881FF2730D06AEB34FBD /* ContentView.swift */,
+				43937A62D626809608EF8888 /* DownloadManager.swift */,
+				7CB50AB93AEF702214FE1106 /* FileShareSheet.swift */,
+				8151C750B510CAE5195B8A49 /* Info.plist */,
+				A1B8908D9DA93F69F9BEC976 /* MediaHoardApp.swift */,
+				00C67810797BDFD84583BD11 /* MediaModels.swift */,
+				524BC7F2D7BD3ECB3F5DF610 /* MediaMuxer.swift */,
+				CFF6D7096FBEEFA2F84F35B1 /* MediaSizeResolver.swift */,
+				1FBB389D327791CDDA73F8D8 /* MediaSourceResolver.swift */,
+			);
+			path = MediaHoard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C5AFB971BEFBB590958BAB2 /* MediaHoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA7DD6D7AD5E63A4245F6D2 /* Build configuration list for PBXNativeTarget "MediaHoard" */;
+			buildPhases = (
+				526ED4AEDCF7FA52198254A2 /* Sources */,
+				B7950774FD42A9699715274A /* Resources */,
+				B873D73DC2FA3BF102DB4783 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediaHoard;
+			packageProductDependencies = (
+				02D0E12321803854A08E969D /* YouTubeKit */,
+			);
+			productName = MediaHoard;
+			productReference = 9C3D49E08989CD80670286E7 /* MediaHoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		862FE5E9FF052397B6AC1E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3C5AFB971BEFBB590958BAB2 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5E9E57433E4C667CA58F90D9 /* Build configuration list for PBXProject "MediaHoard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 022A6C1BD21D0FE90DEDD63F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				36A250B59FAB7B043B06C7F8 /* XCRemoteSwiftPackageReference "YouTubeKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C5AFB971BEFBB590958BAB2 /* MediaHoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7950774FD42A9699715274A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9761370FF93BFD29B62F7F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		526ED4AEDCF7FA52198254A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E746D00E36507BFCB3425E /* ContentView.swift in Sources */,
+				50A8C30585E8DC375973138A /* DownloadManager.swift in Sources */,
+				53D1B8FAB07540B0F58E2EE7 /* FileShareSheet.swift in Sources */,
+				74A44BE9B19D4A1C60D774DD /* MediaHoardApp.swift in Sources */,
+				3396594BA91D039CA3B0CD89 /* MediaModels.swift in Sources */,
+				167D0E4A5552470701E64C6B /* MediaMuxer.swift in Sources */,
+				68A50F0A4F1AE355D29FD18C /* MediaSizeResolver.swift in Sources */,
+				2E464DFFD3FEA88BC263BD48 /* MediaSourceResolver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45A9F6671E4716A54EE5FB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MediaHoard;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mediahoard.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		838D46EC40C44C64D9664DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MediaHoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDBB4121D0097A540AA6DA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MediaHoard;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mediahoard.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		C9C4E408AD900C06E5DE0B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MediaHoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E9E57433E4C667CA58F90D9 /* Build configuration list for PBXProject "MediaHoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A9F6671E4716A54EE5FB58 /* Debug */,
+				BDBB4121D0097A540AA6DA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6BA7DD6D7AD5E63A4245F6D2 /* Build configuration list for PBXNativeTarget "MediaHoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C4E408AD900C06E5DE0B4C /* Debug */,
+				838D46EC40C44C64D9664DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		36A250B59FAB7B043B06C7F8 /* XCRemoteSwiftPackageReference "YouTubeKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alexeichhorn/YouTubeKit";
+			requirement = {
+				kind = exactVersion;
+				version = 0.4.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		02D0E12321803854A08E969D /* YouTubeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36A250B59FAB7B043B06C7F8 /* XCRemoteSwiftPackageReference "YouTubeKit" */;
+			productName = YouTubeKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 862FE5E9FF052397B6AC1E10 /* Project object */;
+}

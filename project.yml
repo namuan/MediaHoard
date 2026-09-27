@@ -1,0 +1,42 @@
+name: MediaHoard
+options:
+  bundleIdPrefix: com.mediahoard
+  deploymentTarget:
+    iOS: "16.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+    PRODUCT_BUNDLE_IDENTIFIER: com.mediahoard.app
+    INFOPLIST_KEY_UIFileSharingEnabled: true
+    INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace: true
+    INFOPLIST_KEY_CFBundleDisplayName: MediaHoard
+targets:
+  MediaHoard:
+    type: application
+    platform: iOS
+    sources:
+      - path: MediaHoard
+    settings:
+      base:
+        TARGETED_DEVICE_FAMILY: "1,2"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: YES
+    dependencies:
+      - package: YouTubeKit
+        product: YouTubeKit
+    info:
+      path: MediaHoard/Info.plist
+      properties:
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+          - UIInterfaceOrientationPortraitUpsideDown
+        ITSAppUsesNonExemptEncryption: false
+packages:
+  YouTubeKit:
+    url: https://github.com/alexeichhorn/YouTubeKit
+    exactVersion: 0.4.9
