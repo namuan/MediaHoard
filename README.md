@@ -2,6 +2,8 @@
 
 A SwiftUI iOS app for resolving supported media links, downloading files to the app's Documents area, and sharing or playing completed downloads.
 
+https://github.com/user-attachments/assets/be72352d-3709-4e91-b73a-26924cd0e6cc
+
 ## Build and install on a device
 
 Install Xcode with iOS platform support and XcodeGen (`brew install xcodegen`). Connect and unlock an iPhone or iPad, enable Developer Mode on it, and accept the computer trust prompt. Sign in to Xcode with an Apple ID that can sign development builds, register the device with that team, and ensure provisioning is enabled. The Makefile attempts to detect a team from local Xcode configuration or a development certificate; detection can be overridden with `TEAM_ID=...`. Automatic provisioning requires the Apple ID to be added under Xcode Settings → Accounts.
